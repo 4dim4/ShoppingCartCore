@@ -2,7 +2,7 @@ package com.niit.shoppingcart;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component(value="cat!")
 public class Category {
 	private String id;
 	private String name;
